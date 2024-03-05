@@ -6,15 +6,15 @@ A set of coordinate transformation tools written in MATLAB
 
 ## Installation
 
-You need to have accesss to MATLAB's navigation toolbox beforee installation, as the functions here are just wrappers around that functionality. First, clone the repository to anywhere on your machine
+You need to have accesss to MATLAB's navigation toolbox before installation, as the functions here are just wrappers around that functionality. First, clone the repository to anywhere on your machine
 
 <code>git clone git@github.com:landon-the-boyd/coordinateTransformations.git </code>
 
-If you want the functions to be available for only a certain project, then add the following line into youur MATLAB code:
+If you want the functions to be available for only a certain project, then add the following line into your MATLAB code:
 
 <code>addpath("Path_to_folder/coordinateTransformations")</code>
 
-If you want to make the functions available for any MATLAB code you write in the future, then follow this tutorial from The MathWorks to save coordinateTransforrmations to your startup MATLAB path
+If you want to make the functions available for any MATLAB code you write in the future, then follow this tutorial from The MathWorks to save coordinateTransformations to your startup MATLAB path
 
 https://www.mathworks.com/help/matlab/matlab_env/add-folders-to-matlab-search-path-at-startup.html
 
@@ -30,7 +30,7 @@ lla0 = [0,0,0]; % Center point of desired local frame
 nedCoordinates = [N,E,D]; % Reassemble into matrix of coordinates
 ```
 
-These new functions, the above code would be:
+With these new functions, the above code would be:
 
 ```
 ecefCoordinates = ones(10,3);
